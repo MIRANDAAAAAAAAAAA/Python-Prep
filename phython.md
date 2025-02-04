@@ -265,6 +265,20 @@ QUESTION 21
 ```````````````````````````````````````````````````````````````````````````````````````````` QUESTION 22
 
 
+p = 2
+while p <= 100:
+    is_prime = True
+
+for i in range(2, p):
+    if p i == 0:
+        is_prime = False
+
+break
+
+if is_prime == True:
+    print(p)
+
+p = p + 1
 
 ````````````````````````````````````````````````````````````````````````````````````````````
 
@@ -397,6 +411,15 @@ from math import sqrt as squareRoot
 
 QUESTION 40
 
+if os.path.isfile(filename):
+
+with open(filename, 'r') as file:
+
+return file.readline()
+
+else:
+
+return None
 `````````````````````````````````````````````````````````````````````````````````````````````
 
 QUESTION 41
